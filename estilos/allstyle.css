@@ -45,6 +45,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-40%, -50%);
+        padding-left: 10px;
     }
 
     div.pesq{
@@ -162,7 +163,7 @@
 
     footer{display: flex;
         background-color: #1e1e24;
-        height:5vh;
+        height:7vh;
         justify-content: center;
         align-items: center;
     }
