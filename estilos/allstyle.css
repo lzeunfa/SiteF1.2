@@ -113,7 +113,7 @@
     }
 
     main{background-image:url(../img/f1l.jpeg);
-        height: 76.5vh;
+        height: 75vh;
         width: 100vw;
         background-size: cover;
         background-position: center;
@@ -155,6 +155,18 @@
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.747);
 
     }
+
+    footer{display: flex;
+        background-color: #1e1e24;
+        height:4.8vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer > a{
+        padding: 0px 15px 0px 0px;
+    }
+
 
   
 
