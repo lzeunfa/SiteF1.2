@@ -24,13 +24,13 @@
     }
 
     header{display: flex;
-        background-color: gray;
+        background-color: white;
         height: 15vh;
         font-family: 'F1', Arial, Helvetica, sans-serif;
     }
 
     div.item1{width: 15%;
-        background-color: rgb(92, 92, 92);
+        background-color: white;
 
     }
 
@@ -110,6 +110,13 @@
         color: #EE2A26;
         background-color: white;
         border: 1px solid black;
+    }
+
+    main{background-image: url(../img/f1l.jpeg);
+        background-position: center center;
+        background-size: cover;
+        width: 100vw;
+        height: 75vh;
     }
 
 
