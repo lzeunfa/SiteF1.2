@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fórmula 1</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/allstyle.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+</head>
+<body onresize="mudouTamanho()">
+   <header>
+    <div class="item1">
+        <img src="img/f1logo2.png" alt="logo formula 1">
+    </div>
+
+    <div class="pesq">
+        <input type="search" name="buscar" id="ibuscar" placeholder="Pesquisar">
+    </div>
+   </header> 
+   <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+   <div id="burgeri">
+    <ul>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Circuitos</a></li>
+        <li><a href="#">Equipes</a></li>
+        <li><a href="#">Calendário</a></li>
+    </ul>
+   </div>
+
+   <script>
+    function mudouTamanho(){
+        if (window.innerWidth <= 600){
+            burger.style.display = 'block'
+        } else {
+            burger.style.display = 'none'
+        }
+    }
+
+    function clickMenu(){
+        if (burgeri.style.display == 'block') {
+            burgeri.style.display = 'none'
+        } else {
+            burgeri.style.display = 'block'
+        }
+    }
+</script>
+</body>
+</html>
