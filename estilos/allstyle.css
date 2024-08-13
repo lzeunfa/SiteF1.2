@@ -15,7 +15,6 @@
     src:url(../fonts/Formula1-Bold.otf);
 }
 
-@media screen and (max-width:600px){
     *{margin: 0px;
         padding: 0px;
         box-sizing: border-box;
@@ -31,6 +30,10 @@
         background-color: white;
         height: 15vh;
         font-family: 'F1', Arial, Helvetica, sans-serif;
+    }
+
+    div.it{
+        display: none;
     }
 
     div.item1{width: 15%;
@@ -166,11 +169,9 @@
         height:5vh;
         justify-content: center;
         align-items: center;
+        box-shadow: 1px 1px 10px black;
     }
 
     footer > a{
         padding: 0px 15px 0px 0px;
     }
-
-
-}
