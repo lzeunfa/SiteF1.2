@@ -1,30 +1,32 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'F1';
+    src: url(../fonts/Formula1-Wide.otf);
+}
+
+@font-face {
+    font-family: 'F1R';
+    src: url(../fonts/Formula1-Regular.otf);
+}
+
+@font-face {
+    font-family: 'F1B';
+    src:url(../fonts/Formula1-Bold.otf);
+}
+
 @media screen and (max-width:600px){
-    @font-face {
-        font-family: 'F1';
-        src: url(fonts/Formula1-Wide.otf);
-    }
-    
-    @font-face {
-        font-family: 'F1R';
-        src: url(fonts/Formula1-Regular.otf);
-    }
-    
-    @font-face {
-        font-family: 'F1B';
-        src: url(fonts/Formula1-Bold.otf);
-    }
-    
     *{margin: 0px;
         padding: 0px;
         box-sizing: border-box;
+        transition-timing-function: ease;
     
     }
 
     header{display: flex;
         background-color: gray;
         height: 15vh;
+        font-family: 'F1', Arial, Helvetica, sans-serif;
     }
 
     div.item1{width: 15%;
@@ -63,17 +65,23 @@
         border: 2px solid #EE2A26;
     }
 
-    i{
+    i#burger{
         color: white;
         background-color: #EE2A26;
         display: block;
         text-align: center;
         width: 100vw;
         border: none;
+        height: 30px;
+        font-size: 1.8em;
+        box-shadow: 0px 1px 2px black;
     }
 
-    i:hover{
+    i#burger:hover{
         cursor: pointer;
+        color: black;
+        background-color: #EE2A26;
+        text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.781);
     }
 
     div#burgeri{display: none;
@@ -94,6 +102,14 @@
         color: white;
         border: 1px solid white;
         padding: 10px;
+        font-family: 'F1', Arial, Helvetica, sans-serif;
+        font-size: 0.8em;
+    }
+
+    div#burgeri > ul > li > a:hover{
+        color: #EE2A26;
+        background-color: white;
+        border: 1px solid black;
     }
 
 
