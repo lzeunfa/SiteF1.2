@@ -162,7 +162,7 @@
 
     footer{display: flex;
         background-color: #1e1e24;
-        height:4.8vh;
+        height:5vh;
         justify-content: center;
         align-items: center;
     }
