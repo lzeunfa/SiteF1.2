@@ -112,12 +112,50 @@
         border: 1px solid black;
     }
 
-    main{background-image: url(../img/f1l.jpeg);
-        background-position: center center;
-        background-size: cover;
+    main{background-image:url(../img/f1l.jpeg);
+        height: 76.5vh;
         width: 100vw;
-        height: 75vh;
+        background-size: cover;
+        background-position: center;
+        
+
     }
 
+    div#f1m{background-color: rgba(128, 128, 128, 0);
+        width: 200px;
+        position: relative;
+        top: 40%;
+        left: 7%;
+        text-align: center;
+
+    }
+
+    main > div#f1m > h1{font-family: 'F1R', Arial, Helvetica, sans-serif;
+        color: #EE2A26;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.87);
+        margin-bottom: 10px;
+
+    }
+
+    main > div#f1m > p{font-family: 'F1R', Arial, Helvetica, sans-serif;
+        background-color: #EE2A26;
+        padding: 20px 10px 20px 10px ;
+        border-radius: 40px 8px 8px 30px;
+        transition: 0.8s;
+    }
+
+    main > div#f1m > p:hover{border-radius: 8px 40px 30px 8px;
+                            transition: 0.8s;
+                            cursor: pointer;
+
+    }
+
+    main > div#f1m > p > a{color: white;
+        text-decoration: none;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.747);
+
+    }
+
+  
 
 }
