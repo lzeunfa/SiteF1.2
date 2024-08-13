@@ -20,7 +20,11 @@
         padding: 0px;
         box-sizing: border-box;
         transition-timing-function: ease;
-    
+        
+    }
+
+    ::-webkit-scrollbar{
+        display: none;
     }
 
     header{display: flex;
