@@ -108,7 +108,7 @@
         display: block;
         text-decoration: none;
         color: white;
-        border: 1px solid white;
+        border: 1px solid rgba(255, 255, 255, 0.658);
         padding: 10px;
         font-family: 'F1', Arial, Helvetica, sans-serif;
         font-size: 0.8em;
@@ -118,6 +118,7 @@
         color: #EE2A26;
         background-color: white;
         border: 1px solid black;
+        transition: 0.4s;
     }
 
     main{background-image:url(../img/f1l.jpeg);
@@ -174,4 +175,9 @@
 
     footer > a{
         padding: 0px 15px 0px 0px;
+    }
+
+    footer > a > img:hover{
+        transform: translate(2px, 1px);
+        transition: transform 0.5s;
     }
