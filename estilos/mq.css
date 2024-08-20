@@ -97,3 +97,68 @@
     }
     
 }
+
+@media screen and (min-width:993px){
+    header{
+        height: 19vh;
+        border-bottom: 1px solid black;
+    }
+
+    div.it{
+        flex: auto;
+        display: block;
+        font-size: 0.8em;
+        margin: 0px 30px 0px 30px;
+    }
+
+    div.it > a{
+        text-decoration: none;
+        position: relative;
+        top: 50%;
+        color: #EE2A26;
+        
+    }
+
+    div.it > a:hover{
+        text-shadow: 1px 1px 1px black;
+    }
+
+    div.pesq{
+        width: 60%;
+    }
+
+    div.pesq > input{height: 30px;
+            max-width: 250px;
+            min-width: 120px;
+            top: 40%;
+            left: 10%;
+            transform: translate(0%, 0%);
+            margin-left: 15px;
+            margin-right: 10px;
+        
+    }
+
+    i#burger{
+        display: none;
+    }
+
+    main > div#f1m > h1{
+        color: white;
+        text-shadow: 1px 2px 5px black;
+    }
+
+    main > div#f1m > p{
+        background-color: white;
+
+    }
+
+    main > div#f1m > p > a{color: #EE2A26;
+        text-shadow: 0px 0px 2px black;
+    }
+
+    footer{
+        height: 6vh;
+    }
+
+    
+}
