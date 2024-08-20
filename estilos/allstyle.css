@@ -177,6 +177,10 @@
         padding: 0px 15px 0px 0px;
     }
 
+    footer > a > img{
+        transition: transform 0.5s;
+    }
+
     footer > a > img:hover{
         transform: translate(2px, 1px);
         transition: transform 0.5s;
