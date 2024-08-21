@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media  screen and (min-width:600px) and (max-width:770px) {
+@media  screen and (min-width:664px) and (max-width:810px) {
 
     header{
         border-bottom: 1px solid black;
@@ -28,6 +28,7 @@
 
     div.pesq{
         width: 90%;
+        padding-right:20px;
     }
 
     div.pesq > input{height: 30px;
@@ -51,7 +52,7 @@
     }
 }
 
-@media screen and (min-width:771px) and (max-width:992px) {
+@media screen and (min-width:811px) and (max-width:992px) {
     header{
         height: 19vh;
         border-bottom: 1px solid black;

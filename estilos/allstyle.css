@@ -168,7 +168,7 @@
 
     footer{display: flex;
         background-color: #1e1e24;
-        height:7vh;
+        height:5vh;
         justify-content: center;
         align-items: center;
         box-shadow: 1px 1px 10px black;
